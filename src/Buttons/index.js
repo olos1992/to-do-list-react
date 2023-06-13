@@ -9,7 +9,6 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
                 ${tasks.every(({ finished }) => !finished) ? "disabled" : ""}`}>
                     {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
                 </button>
-
                 <button
                     className={`button--finishAll
                 ${tasks.every(({ finished }) => finished) ? "disabled" : ""}`}>
