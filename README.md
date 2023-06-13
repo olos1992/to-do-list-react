@@ -27,7 +27,7 @@ The website is built with use of:
 
 ## Demo
 
-(https://olos1992.github.io/To-do-list/)
+(https://olos1992.github.io/to-do-list-react/)
 <br>
 <br>
 
