@@ -6,13 +6,13 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
             <>
                 <button
                     className={`button--hideDone
-                ${tasks.every(({ finished }) => !finished) ? "disabled" : ""}`}>
-                    {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+                    ${tasks.every(({ finished }) => !finished) ? "disabled" : ""}`}>
+                        {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
                 </button>
                 <button
                     className={`button--finishAll
-                ${tasks.every(({ finished }) => finished) ? "disabled" : ""}`}>
-                    Ukończ wszystkie
+                    ${tasks.every(({ finished }) => finished) ? "disabled" : ""}`}>
+                        Ukończ wszystkie
                 </button>
             </>
         )}
