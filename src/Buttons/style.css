@@ -37,6 +37,6 @@
     color: #007382b4;
 }
 
-.buttons__button.disabled {
+.buttons__button:disabled {
     color: #007382ab;
 }
