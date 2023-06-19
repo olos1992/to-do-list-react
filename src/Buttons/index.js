@@ -5,12 +5,12 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
         {tasks.length > 0 && (
             <>
                 <button
-                    className={`button--hideDone
+                    className={`buttons__button
                     ${tasks.every(({ finished }) => !finished) ? "disabled" : ""}`}>
                         {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
                 </button>
                 <button
-                    className={`button--finishAll
+                    className={`buttons__button
                     ${tasks.every(({ finished }) => finished) ? "disabled" : ""}`}>
                         Ukończ wszystkie
                 </button>
