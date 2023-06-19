@@ -46,6 +46,7 @@
 .form__button:hover {
     transform: scale(1.15);
     background-color: #007382c5;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {

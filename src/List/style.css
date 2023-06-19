@@ -47,6 +47,7 @@
 
 .list__button--finish:hover {
     background-color: #1a7b1dc5;
+    cursor: pointer;
 }
 
 .list__button--delete {
@@ -57,4 +58,5 @@
 
 .list__button--delete:hover {
     background-color: #ed2939c5;
+    cursor: pointer;
 }

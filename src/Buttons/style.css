@@ -35,8 +35,10 @@
 
 .buttons__button:hover {
     color: #007382b4;
+    cursor: pointer;
 }
 
 .buttons__button:disabled {
     color: #007382ab;
+    cursor: not-allowed;
 }
