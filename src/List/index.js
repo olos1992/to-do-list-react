@@ -9,7 +9,7 @@ const List = ({ tasks, hideDoneTasks }) => (
                 <button className={`list__button list__button--finish`}>
                     {task.finished ? "✓" : ""}
                 </button>
-                <span className={`list__itemText ${task.finished === true ? "list__item--finished" : ""}`}>
+                <span className={`list__itemText ${task.finished === true ? "list__itemText--finished" : ""}`}>
                     {task.content}
                 </span>
                 <button className={`list__button list__button--delete`}>

@@ -23,7 +23,7 @@
     display: none;
 }
 
-.list__item--finished {
+.list__itemText--finished {
     text-decoration: line-through;
 }
 
