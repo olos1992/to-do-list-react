@@ -6,7 +6,7 @@ import Header from "./Header";
 import Container from "./Container";
 
 const tasks = [
-  { id: 1, content: "przejsć na React", finished: true },
+  { id: 1, content: "przejsć na React", finished: false },
   { id: 2, content: "zjeść kolację", finished: true },
 ]
 
